@@ -69,4 +69,7 @@ Provide:
     
 ☁️ S3 Sync Setup
 
-You can use a bash script to sync local files to S3.
+You can use a bash script to sync local files to S3:
+  ```
+  #!/bin/bash
+  aws s3 sync /home/ubuntu/sync s3://asynce --delete
