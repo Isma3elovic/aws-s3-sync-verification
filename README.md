@@ -110,3 +110,18 @@ pip3 --version
    Install dependencies:
 ```
    pip install boto3
+```
+
+Example usage:
+```
+python3 verify_s3_upload.py
+```
+Update the script with:
+
+    Your bucket name
+
+    Local directory path
+
+    SNS topic ARN
+
+    ```
