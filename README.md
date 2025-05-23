@@ -124,4 +124,16 @@ Update the script with:
 
     SNS topic ARN
 
-    ```
+   Automate with Cron
+   ```
+crontab -e
+```
+Add the following lines:
+```
+# Sync files to S3 every 30 minutes
+*/30 * * * * /home/ubuntu/aws_sync.sh
+
+# Run verification script at 1 AM daily
+0 1 * * * /usr/bin/python3 /home/ubuntu/verify_s3_upload.py
+```
+
