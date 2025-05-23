@@ -80,12 +80,12 @@ chmod +x aws_sync.sh
 ```
 
 📬 SNS Setup
-    Create a Topic
-    Go to the AWS SNS console, create a new topic (e.g., FileSyncAlerts), and copy the ARN.
-    Subscribe an Email
-    Click “Create subscription”
-    Protocol: Email
-    Endpoint: your-email@example.com
-    Confirm the subscription from your inbox
-    Update Script Configuration
-    Add the topic ARN to your Python script for publishing alerts.
+    1- Create a Topic
+    2- Go to the AWS SNS console, create a new topic (e.g., FileSyncAlerts), and copy the ARN.
+    3- Subscribe an Email
+    4- Click “Create subscription”
+    5- Protocol: Email
+    6- Endpoint: your-email@example.com
+    7- Confirm the subscription from your inbox
+    8- Update Script Configuration
+    9- Add the topic ARN to your Python script for publishing alerts.
