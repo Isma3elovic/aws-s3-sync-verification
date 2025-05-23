@@ -91,5 +91,22 @@ chmod +x aws_sync.sh
     8- Update Script Configuration
     9- Add the topic ARN to your Python script for publishing alerts.
 ```
-    
-    🐍 Python Verification Script
+
+   🐍Python Verification Script
+
+## 🐍 Install Python 3 (if not installed)
+
+To check if Python 3 is installed:
+
+```bash
+python3 --version
+
+sudo apt update
+sudo apt install python3 python3-pip -y
+python3 --version
+pip3 --version
+```
+
+   Install dependencies:
+```
+   pip install boto3
