@@ -80,6 +80,7 @@ chmod +x aws_sync.sh
 ```
 
 📬 SNS Setup
+
     1- Create a Topic
     2- Go to the AWS SNS console, create a new topic (e.g., FileSyncAlerts), and copy the ARN.
     3- Subscribe an Email
